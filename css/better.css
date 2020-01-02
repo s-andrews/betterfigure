@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial';font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+/* The main divs forming the structure of the page */
+div {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+#main {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+#header {
+    background-color: #999;
+    color: white;
+    padding:0.1em;
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+    margin-bottom: 0;
+/*    background-image: url("../images/background.png"); 8?
+    background-size: cover;
+}
+
+#filter {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+
+/*  THe header */
+#header h1 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 300%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+
+/* Some general classes */
+.small {
+    font-size: 70%;
+}
+
+h2 {
+    font-size: 120%;
+    text-align: center;
+    margin: 0.2em;
+}
+
+
